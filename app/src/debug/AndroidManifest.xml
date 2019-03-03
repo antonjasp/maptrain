@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jasper.maptrain">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application>
+        <activity
+            android:name="com.example.jasper.maptrain.nav_men"
+            android:label="@string/title_activity_nav_men"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+</manifest>
